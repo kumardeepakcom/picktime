@@ -17,4 +17,5 @@ playwright-report/
 
 # local working notes, never published
 context/
+.context.json
 .claude
