@@ -1,7 +1,8 @@
 import { resolve } from 'node:path';
 import browserslist from 'browserslist';
 import { browserslistToTargets } from 'lightningcss';
-import { defineConfig } from 'vite';
+import { defineConfig, loadEnv } from 'vite';
+import { googleAnalytics } from './demo/analytics-plugin.js';
 import { shikiHighlight } from './demo/shiki-plugin.js';
 
 const root = import.meta.dirname;
@@ -15,9 +16,13 @@ const targets = browserslistToTargets(browserslist());
 
 export default defineConfig(({ command, mode }) => {
   const isDemo = command === 'serve' || mode === 'demo';
+  const { VITE_GA_ID } = loadEnv(mode, root, 'VITE_');
+
+  const plugins = isDemo ? [shikiHighlight()] : [];
+  if (mode === 'demo' && VITE_GA_ID) plugins.push(googleAnalytics(VITE_GA_ID));
 
   return {
-    plugins: isDemo ? [shikiHighlight()] : [],
+    plugins,
     root: isDemo ? resolve(root, 'demo') : root,
     base: mode === 'demo' ? '/picktime/' : '/',
 

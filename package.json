@@ -42,6 +42,7 @@
     "format": "biome format --write",
     "test": "vitest run",
     "test:watch": "vitest",
+    "check": "npx -y npm-check-updates -i && npm install && npm run lint:fix && npm run typecheck && npm audit",
     "check:package": "publint && attw --pack --ignore-rules cjs-resolves-to-esm no-resolution",
     "prepublishOnly": "npm run build && npm run check:package",
     "release": "npm run build && changeset publish"
@@ -74,20 +75,24 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
-    "@biomejs/biome": "^2.5.8",
+    "@biomejs/biome": "^2.5.10",
     "@changesets/changelog-github": "^1.0.0",
-    "@changesets/cli": "^3.0.0",
+    "@changesets/cli": "^3.0.1",
     "@fontsource/maple-mono": "^5.3.0",
-    "@types/node": "^26.2.0",
-    "@vitest/browser": "^4.1.10",
-    "@vitest/browser-playwright": "^4.1.10",
+    "@types/node": "^26.3.0",
+    "@vitest/browser": "^4.1.11",
+    "@vitest/browser-playwright": "^4.1.11",
     "browserslist": "^4.28.8",
     "lightningcss": "^1.33.0",
     "playwright": "^1.62.1",
-    "publint": "^0.3.23",
+    "publint": "^0.3.24",
     "shiki": "^4.4.3",
     "typescript": "^7.0.2",
-    "vite": "^8.2.1",
-    "vitest": "^4.1.10"
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  },
+  "allowScripts": {
+    "fsevents@2.3.2": true,
+    "fsevents@2.3.3": true
   }
 }

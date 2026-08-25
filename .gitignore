@@ -3,6 +3,10 @@ dist/
 demo-dist/
 *.tsbuildinfo
 
+.env
+.env.*
+!.env.example
+
 .DS_Store
 *.log
 npm-debug.log*
@@ -12,4 +16,5 @@ test/__screenshots__/
 playwright-report/
 
 # local working notes, never published
-TODO.md
+context/
+.claude

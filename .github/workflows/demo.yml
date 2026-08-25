@@ -31,6 +31,8 @@ jobs:
 
       - run: npm ci
       - run: npx vite build --mode demo
+        env:
+          VITE_GA_ID: ${{ secrets.VITE_GA_ID }}
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
