@@ -33,14 +33,13 @@ jobs:
       - run: npm ci
 
       - name: Create release pull request or publish
-        uses: changesets/action@v1
+        uses: changesets/action@v2
         with:
-          version: npx changeset version
-          publish: npm run release
-          title: 'chore: release'
-          commit: 'chore: release'
+          version-script: npx changeset version
+          publish-script: npm run release
+          pr-title: 'chore: release'
+          commit-message: 'chore: release'
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # No NODE_AUTH_TOKEN: npm Trusted Publishing (OIDC) authenticates the
           # publish, using the id-token permission requested above.
           NPM_CONFIG_PROVENANCE: true
