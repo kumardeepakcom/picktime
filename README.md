@@ -1,13 +1,13 @@
-![PickTime](https://raw.githubusercontent.com/kumardeepakme/picktime/main/cover.png)
+![PickTime](https://raw.githubusercontent.com/kumardeepakcom/picktime/main/cover.png)
 
 [![npm](https://img.shields.io/npm/v/picktime)](https://www.npmjs.com/package/picktime)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/picktime)](https://bundlephobia.com/package/picktime)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/picktime/badge?style=rounded)](https://www.jsdelivr.com/package/npm/picktime)
-[![License](https://img.shields.io/github/license/kumardeepakme/picktime)](https://github.com/kumardeepakme/picktime/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/kumardeepakcom/picktime)](https://github.com/kumardeepakcom/picktime/blob/main/LICENSE)
 
 # PickTime
 
-**[Live demo and playground](https://kumardeepakme.github.io/picktime/)**
+**[Live demo and playground](https://kumardeepakcom.github.io/picktime/)**
 
 A time picker that behaves like a real form control.
 
@@ -254,7 +254,7 @@ pick-time {
 }
 ```
 
-![A PickTime panel restyled with the properties above](https://raw.githubusercontent.com/kumardeepakme/picktime/main/custom-theme.png)
+![A PickTime panel restyled with the properties above](https://raw.githubusercontent.com/kumardeepakcom/picktime/main/custom-theme.png)
 
 The trigger field has its own padding, radius, border and colour tokens
 (`--pt-field-*`), so it can match a host form's rhythm and palette without
@@ -385,10 +385,10 @@ only reached Firefox in 147.
 
 ## License
 
-[MIT](LICENSE) © [Kumar Deepak](https://kumardeepak.me)
+[MIT](LICENSE) © [Kumar Deepak](https://kumardeepak.com)
 
 ## Support project
 
 If this package added value to your project, please consider buying me a cup of coffee. 🙏
 
-[![Buy me a coffee](https://raw.githubusercontent.com/kumardeepakme/picktime/main/bmc.png)](https://buymeacoffee.com/kumardeepak.com)
+[![Buy me a coffee](https://raw.githubusercontent.com/kumardeepakcom/picktime/main/bmc.png)](https://buymeacoffee.com/kumardeepak.com)

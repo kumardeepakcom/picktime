@@ -4,7 +4,7 @@ Thanks for taking a look.
 
 ## Setup
 
-Requires Node `^20.19.0 || >=22.12.0`.
+Requires Node `^22.12.0 || ^24.0.0 || >=26.0.0`.
 
 ```sh
 npm install

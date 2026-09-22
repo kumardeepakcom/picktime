@@ -12,8 +12,8 @@
 Please do not open a public issue for a security problem.
 
 Report it through
-[GitHub's private advisory form](https://github.com/kumardeepakme/picktime/security/advisories/new),
-or by email to inbox@kumardeepak.me.
+[GitHub's private advisory form](https://github.com/kumardeepakcom/picktime/security/advisories/new),
+or by email to inbox@kumardeepak.com.
 
 Expect an acknowledgement within a few days. Since this is a client-side UI
 component with no network access and no credential handling, the realistic

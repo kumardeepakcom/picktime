@@ -234,8 +234,7 @@ label {
 }
 
 /* Wrapping labels lay themselves out; the span carries the text. */
-.controls label,
-.controls .toggles label {
+.controls label {
   display: flex;
   margin-bottom: 0;
 }
@@ -913,13 +912,13 @@ pick-time.kd {
   cursor: pointer;
   transition: color 0.2s;
 
-  &:hover {
-    color: var(--accent);
-  }
-
   &:has(input:checked) {
     color: var(--accent);
   }
+}
+
+.toggles label:hover {
+  color: var(--accent);
 }
 
 .toggles input[type="checkbox"] {

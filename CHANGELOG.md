@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- [#3](https://github.com/kumardeepakme/picktime/pull/3) [`33c60d6`](https://github.com/kumardeepakme/picktime/commit/33c60d64370810d101577a7b233bf32a974378f1) Thanks [@kumardeepakme](https://github.com/kumardeepakme)! - README images now use absolute `raw.githubusercontent.com` URLs, so the cover
+- [#3](https://github.com/kumardeepakcom/picktime/pull/3) [`33c60d6`](https://github.com/kumardeepakcom/picktime/commit/33c60d64370810d101577a7b233bf32a974378f1) Thanks [@kumardeepakcom](https://github.com/kumardeepakcom)! - README images now use absolute `raw.githubusercontent.com` URLs, so the cover
   and theming screenshots render on npm as well as on GitHub. Relative paths only
   resolved against the repository, leaving the npm page with broken images.
 
@@ -162,4 +162,4 @@ that decorates a text input.
 
 ## 2.0.1
 
-See the [release notes](https://github.com/kumardeepakme/picktime/releases).
+See the [release notes](https://github.com/kumardeepakcom/picktime/releases).

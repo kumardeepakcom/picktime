@@ -24,7 +24,7 @@
     "**/index.ts"
   ],
   "engines": {
-    "node": "^20.19.0 || >=22.12.0"
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
   },
   "browserslist": [
     "chrome >= 114",
@@ -49,7 +49,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kumardeepakme/picktime.git"
+    "url": "git+https://github.com/kumardeepakcom/picktime.git"
   },
   "keywords": [
     "picktime",
@@ -64,32 +64,32 @@
     "a11y",
     "typescript"
   ],
-  "author": "Kumar Deepak <inbox@kumardeepak.me> (https://kumardeepak.me)",
+  "author": "Kumar Deepak <inbox@kumardeepak.com> (https://kumardeepak.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kumardeepakme/picktime/issues"
+    "url": "https://github.com/kumardeepakcom/picktime/issues"
   },
-  "homepage": "https://github.com/kumardeepakme/picktime#readme",
+  "homepage": "https://github.com/kumardeepakcom/picktime#readme",
   "dependencies": {
     "@floating-ui/dom": "^1.8.0"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.5",
-    "@biomejs/biome": "^2.5.10",
-    "@changesets/changelog-github": "^1.0.0",
-    "@changesets/cli": "^3.0.1",
+    "@biomejs/biome": "^2.5.14",
+    "@changesets/changelog-github": "^1.0.1",
+    "@changesets/cli": "^3.0.3",
     "@fontsource/maple-mono": "^5.3.0",
-    "@types/node": "^26.3.0",
-    "@vitest/browser": "^4.1.11",
-    "@vitest/browser-playwright": "^4.1.11",
-    "browserslist": "^4.28.8",
+    "@types/node": "^26.6.2",
+    "@vitest/browser": "^5.0.1",
+    "@vitest/browser-playwright": "^5.0.1",
+    "browserslist": "^4.29.0",
     "lightningcss": "^1.33.0",
-    "playwright": "^1.62.1",
+    "playwright": "^1.63.0",
     "publint": "^0.3.24",
     "shiki": "^4.4.3",
     "typescript": "^7.0.2",
-    "vite": "^8.2.2",
-    "vitest": "^4.1.11"
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
   },
   "allowScripts": {
     "fsevents@2.3.2": true,

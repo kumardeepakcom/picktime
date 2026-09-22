@@ -37,7 +37,7 @@ Never assume the project is live, or not, without reading this.
 custom element that submits with the form, validates through `ElementInternals`, and formats itself from the
 user's locale. Kumar Deepak is its sole author in `package.json` and owns the releases. It produces two things: the `picktime` package on
 npm (ESM only, one runtime dependency, `@floating-ui/dom`) and the demo at
-https://kumardeepakme.github.io/picktime/, built from `demo/` and deployed to GitHub Pages. v2 callers are still
+https://kumardeepakcom.github.io/picktime/, built from `demo/` and deployed to GitHub Pages. v2 callers are still
 supported through the `src/compat.ts` shim, so nothing here may break them.
 
 ## Commands

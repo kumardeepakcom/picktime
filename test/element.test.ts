@@ -264,8 +264,11 @@ describe('keyboard stepping', () => {
    * otherwise the key lands on hours instead.
    */
   const open = async (el: PickTimeElement) => {
+    const opened = new Promise(resolve =>
+      part(el, '#picker').addEventListener('toggle', resolve, { once: true })
+    );
     el.showPicker();
-    await new Promise(resolve => setTimeout(resolve, 0));
+    await opened;
   };
 
   const press = async (el: PickTimeElement, field: string, key: string) => {
