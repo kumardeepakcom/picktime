@@ -1,5 +1,15 @@
 # picktime
 
+## 3.0.2
+
+### Patch Changes
+
+- [`bff7437`](https://github.com/kumardeepakcom/picktime/commit/bff743700ce507959ad0441f819eaefa4dfd8950) Thanks [@kumardeepakcom](https://github.com/kumardeepakcom)! - Repository, issues, homepage and README links now point to the
+  `kumardeepakcom` GitHub account, including the live demo at
+  https://kumardeepakcom.github.io/picktime/. The author and security contact
+  move to `kumardeepak.com`. The `engines` field now lists Node
+  `^22.12.0 || ^24.0.0 || >=26.0.0`, matching the toolchain.
+
 ## 3.0.1
 
 ### Patch Changes
